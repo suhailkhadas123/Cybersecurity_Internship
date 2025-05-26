@@ -1,0 +1,31 @@
+# Nmap 7.97 scan initiated Mon May 26 10:41:37 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0094s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+53/tcp   filtered domain
+80/tcp   open     http
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+3517/tcp filtered 802-11-iapp
+8082/tcp filtered blackice-alerts
+MAC Address: F4:27:56:70:F0:4F (Dasan Newtork Solutions)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.00047s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+
+# Nmap done at Mon May 26 10:41:56 2025 -- 256 IP addresses (2 hosts up) scanned in 19.28 seconds
